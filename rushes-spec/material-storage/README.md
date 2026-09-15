@@ -27,8 +27,15 @@
 | [0003](./decisions/0003-seafile-only-poc.md) | v0.5 Seafile-only PoC | **superseded by 0005** |
 | [0005](./decisions/0005-drop-seafile-middle-layer-minio-only.md) | 抛弃 Seafile 中间层,自研 + MinIO-only | accepted ⭐ |
 | [0006](./decisions/0006-phase-b-tech-stack.md) | Phase B 技术栈选型(Python 3.12 / FastAPI / OpenFGA / MinIO / 飞书 OIDC) | accepted |
+| [0009](./decisions/0009-ai-auto-tagging-base.md) | AI 打标底座(自托管 ML 微服务 + 独立 AI 标签区 + pgvector) | accepted |
 
-> ADR 编号 0004 空位(未起草)。
+> ADR 编号 0004 空位(未起草);0007/0008 见「当前方向」两份(弃飞书自建身份 / 存储分层)。
+
+### 方案(spec)
+
+| | 用途 |
+| --- | --- |
+| [`ai-tagging-base.md`](./ai-tagging-base.md) | AI 打标底座:素材上传后自动识别打标 + 语义搜索(分期实施与验收) |
 
 ### 调研笔记
 
