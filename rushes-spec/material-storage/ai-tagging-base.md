@@ -2,7 +2,8 @@
 
 - 状态: proposed
 - 日期: 2026-09-15
-- Issue: 待回填
+- Issue: [kevinfitzroy/rushes-lab#179](https://github.com/kevinfitzroy/rushes-lab/issues/179)(状态:调研中,请勿开工)
+- 落点说明: 因主仓推送权限受限,本文档当前合并于 [fork main](https://github.com/Strelizialeomon/rushes-lab/blob/main/rushes-spec/material-storage/ai-tagging-base.md);进主仓走 [PR #178](https://github.com/kevinfitzroy/rushes-lab/pull/178),合并后 issue 锚点切主仓链接。
 - 关联: [ADR-0009](./decisions/0009-ai-auto-tagging-base.md)、调研依据 [research/ai-auto-tagging-solutions.md](./research/ai-auto-tagging-solutions.md)
 
 ## 1. 背景与目标
